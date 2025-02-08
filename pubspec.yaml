@@ -1,0 +1,111 @@
+name: garden_lovers_mobile_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  sizer: ^3.0.4
+  provider: ^6.1.2
+  font_awesome_flutter: ^10.8.0
+  google_sign_in: ^6.2.2
+  openai_dart: ^0.4.5
+  flutter_dotenv: ^5.2.1
+  dash_chat_2: ^0.0.21
+  chat_gpt_sdk: ^3.1.4
+  chat_gpt_flutter: ^1.0.16
+  cached_network_image: ^3.4.1
+  flutter_facebook_auth: ^7.1.1
+  google_sign_in_all_platforms_mobile: ^0.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/Background.png
+    - assets/images/Garden Lovers Logo.png
+    - assets/images/Levi Logo.png
+    - assets/images/After_Cart.png
+    - assets/images/OBJECT.png
+    - assets/images/After_Chat.png
+    - assets/images/After_Likes.png
+    - assets/images/Before_Cart.png
+    - assets/images/Before_Chat.png
+    - assets/images/Before_Home.png
+    - assets/images/Before_Likes.png
+    - assets/images/Download Icon.png
+    - assets/images/Tramming_Image.png
+    - assets/images/man1.png
+    - assets/images/man1_one.png
+    - assets/images/Nav_Bar_Image.png
+    - assets/images/AfterHome.png
+    - assets/images/Cleaning Image.png
+    - assets/images/Decoration_Image.png
+    - assets/images/Avatar.png
+    - assets/images/slider.png
+    - assets/images/Line 5.png
+    - assets/images/how-to-grow-dahlias-pv-Nicholas (1).jpg
+    - assets/images/ADAM+ROBINSON+DESIGN+Plant+of+The+Month+48 (1).jpg
+    - assets/images/Plants-to-ease-the-mind_gerbera-daisy (1).jpg
+    - assets/images/Plants-to-ease-the-mind_lavender (1).jpg
+    - assets/images/rosemary-herb-flowering (1).jpg
+    - assets/images/greenery-logo (2).png
+    - assets/images/Untitled design(122) 3 (1).png
+    - assets/images/icon-area-1.png
+    - assets/images/icon-area-2.png
+    - assets/images/area_user.png
+    - assets/images/button-social-media.png
+    - assets/images/button-social-media-1.png
+    - assets/images/button-social-media-2.png
+    - assets/images/Facebook Icon.png
+    - assets/images/Google Icon.png
+    - assets/images/Wrong Login.png
+    - assets/images/Success Login.png
+
+
+  fonts:
+    - family: Lalezar
+      fonts:
+        - asset: assets/fonts/Lalezar/Lalezar-Regular.ttf
+
+    - family: Zian
+      fonts:
+        - asset: assets/fonts/Zain/Zain-ExtraBold.ttf
+
+    - family: Lilita
+      fonts:
+        - asset: assets/fonts/Lilita_One/LilitaOne-Regular.ttf
+
+    - family: Lilita2
+      fonts:
+        - asset: assets/fonts/Lilita_One/LilitaOne-Regular.ttf
+
+    - family: Protest_Strike
+      fonts:
+        - asset: assets/fonts/Protest_Strike/ProtestStrike-Regular.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins (2)/Poppins-Bold.ttf
+
+    - family: Poppins_Reg
+      fonts:
+        - asset: assets/fonts/Poppins (2)/Poppins-Regular.ttf
+

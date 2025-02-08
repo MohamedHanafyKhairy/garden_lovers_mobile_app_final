@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568918408516",
+    "project_id": "gardenloverswithfirebase",
+    "storage_bucket": "gardenloverswithfirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568918408516:android:346d518ba0513858246b11",
+        "android_client_info": {
+          "package_name": "com.FireBase.garden_lovers_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEUE5kvsnIEhftmcaiq7wKLzlQx-PRzrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
