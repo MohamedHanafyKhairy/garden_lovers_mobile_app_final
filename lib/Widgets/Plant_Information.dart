@@ -11,7 +11,7 @@ class PlantInformation extends StatelessWidget {
     Key? key,
     required this.title,
     required this.description,
-    required this.imageUrl, // سيتم تمرير اسم الصورة هنا
+    required this.imageUrl,
   }) : super(key: key);
 
   @override
@@ -25,7 +25,6 @@ class PlantInformation extends StatelessWidget {
             width: 55.h,
             child: Stack(
               children: [
-                // الخلفية مع تأثير الـ blur والعنوان
                 Padding(
                   padding: EdgeInsets.fromLTRB(0.h, 1.h, 0.h, 0.h),
                   child: Center(
@@ -76,12 +75,11 @@ class PlantInformation extends StatelessWidget {
                     height: 16.h,
                     width: 22.h,
                     child: Image.asset(
-                      imageUrl, // استخدام AssetImage هنا
+                      imageUrl,
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
-                // نص الوصف
                 Padding(
                   padding: EdgeInsets.fromLTRB(1.h, 8.h, 0, 0),
                   child: Text(
